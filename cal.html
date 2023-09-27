@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <h1> Onilne Calculator</h1>
+   <!-- Text Box - Basic Best Practice-->   
+
+
+   <br/>  
+   
+   <textarea id="textArea1" name="textArea" placeholder="0" rows="6" cols="20" autocomplete="on" minlength="3" maxlength="50" ></textarea> 
+   
+<br/>
+<!--Button - Basic Best Practice-->
+<button id="clear" type="text" aria-label="Example Submit Button">CE</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="delete" type="text">DEL</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="equ" type="test">=</button> <style> 
+    button { 
+    background-color: #1916ce; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #00b32d; 
+    } 
+</style>
+<button id="add" type="number">+</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>  
+<br/>
+<br/>
+
+<button id="nine" type="number" >9</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="eight" type="number" >8</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+
+<button id="seven" type="number" >7</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="sub" type="number" >-</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style> 
+<br/>
+<br/>
+<button id="six" type="number" >6</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="five" type="number">5</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="four" type="number">4</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="mul" type="number">X</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style> 
+<br/>
+<br/>
+<button id="three" type="number">3</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="two" type="number">2</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="one" type="number" >1</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="div" type="number" >/</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style> 
+
+
+<br/>
+<br/> 
+<button id="zero" type="number">0</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 20px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="dot" type="number" >.</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+<button id="per" type="number" >%</button> <style> 
+    button { 
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    } 
+    button:hover { 
+    background-color: #0056b3; 
+    } 
+</style>
+
+</body>
+</html>
